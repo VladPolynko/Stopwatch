@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="style/style.css">
+
+
+</head>
+
+<body>
+<section class="stopwatch_section">
+  <div class="title">
+    <h2>Секундомер</h2>
+  </div>
+  <div class="wrapper_stopwatch">
+
+    <div class="last_circle">
+      <span id="mm_last">00</span>:
+      <span id="ss_last">00</span>,
+      <span id="ms_last">00</span>
+    </div>
+
+    <div class="timer">
+      <span id="mm">00</span>:
+      <span id="ss">00</span>,
+      <span id="ms">00</span>
+    </div>
+  </div>
+
+  <canvas height="300" width="300" id="example">
+    У вашего браузера нет поддержки canvas
+  </canvas>
+
+  <div class="wrapper_nav">
+    <div id="circle_reset" class="circle"><span></span></div>
+    <div id="start_stop" class="start"><span></span></div>
+  </div>
+
+  <div class="wrapper_list">
+    <ul id="load_list">
+      <div class="clear_both"></div>
+    </ul>
+  </div>
+</section>
+
+
+<!--include-->
+<script src="js/lib/jquery.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+/*all*/
+.clear_both{
+  clear: both;
+}
+/**/
+body{
+  margin: 0;
+  padding: 0;
+}
+.stopwatch_section{
+  width: 320px;
+}
+.title{
+  width: 100%;
+  border-bottom: 2px solid #d8d7dd;
+  background: #EFEEF4;
+}
+.title h2{
+  margin-top: 0;
+  padding:10px;
+  text-align: center;
+}
+
+.start,.stop{
+  cursor: pointer;
+}
+
+.start span:before{
+  content: 'Старт';
+  color: #34ca1a;
+}
+.stop span:before{
+  content: 'Стоп';
+  color: #bd010f;
+}
+.circle span:before{
+  content: 'Круг';
+  color: #000000;
+}
+.reset span:before{
+  content: 'Сброс';
+  color: #000000;
+}
+
+.wrapper_stopwatch{
+  background: #fff;
+  width: 100%;
+}
+
+.wrapper_stopwatch .last_circle{
+  width: 100%;
+  text-align: right;
+  font-size: 22px;
+  color: #ababab;
+
+}
+.wrapper_stopwatch .timer{
+  width: 100%;
+  text-align: center;
+  font-size: 45px;
+  color: #ababab;
+}
+.wrapper_nav {
+  text-align: center;
+  padding: 20px;
+  background: #EFEEF4;
+
+}
+.wrapper_nav div{
+  display: inline-block;
+  margin: 0 40px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #fff;
+}
+.wrapper_nav div span{
+  position: relative;
+  top: 14px;
+}
+.wrapper_list ul li{
+  width: 100%;
+  border-bottom:1px solid #ababab; ;
+  font-size: 17px;
+  list-style: none;
+  line-height: 20px;
+  padding: 22px 0;
+}
+.wrapper_list ul .circle{
+  color: #ababab;
+  float: left;
+
+}
+.wrapper_list ul .time{
+  color: #000000;
+  float: right;
+}
+
+.stopwatch_section canvas {
+  padding: 0 10px;
+}
+
